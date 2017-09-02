@@ -1,0 +1,107 @@
+Devops ?
+
+Devops is a practice that actually bring Dev, ops, Hr, Testing  therir activites.together in a collebrative fashion using proper process and technicques to achive fastest and relieabl s/w releases.
+
+
+Ultimate intention of Devops is Faster Realeases with High Quality.
+
+Q)How Devops is differnt from Agile?
+Agile is a methodology 
+Scrum framework is a particular process and ruls and 
+Development activites - each sprint has a number of tasks 
+Agile deals with Dev start and Dev end.
+
+How the production support, releases, operstion.
+
+Devops talks about END to END life cycle.
+
+Devops is a mostly called as a practiceIts different from Agile
+
+What is the Need of Devops ? 
+
+Increase deployment frequency.
+Low failure rates.
+Shortend lead time to  fix the issues.
+Faster recovery interms of failure.
+
+Monitoring the applicatipion weather it is giving required results or not.
+
+Name the Devops tools?
+Tools you will choose?
+
+SCM tool - GIT- DVCMTool 
+MAVEN - BUILD and compile of code.
+ARTIFACT - NAXAS,
+All this integrated in the continuos integraion tool - JENKINS.
+SELINIUM - TEST TOOL
+To deploy this app in envrioment run and up- you should have provisiong system (puppet, CHEF, Ansible) provide provision to the seervers and deploy the application.
+
+DOcker for Micro sericve app.
+
+What does git performs in Devops ?
+
+To store the code and share the code repository with others.
+Git is a distriubuted VCS and SVN is a client server based.
+
+Centralised Repository (original repository) -- actually dev take a copy of repo and commit and push the repository.
+
+SVN - Cvcs - Central repositor is avilable  centraisled servers -it just copy the contents requried workspace and contents and commit the changes.
+
+------------
+Git commit -m "original "
+Git revert "original"
+
+CI
+Based on your commit on your branch
+CI the change branch, truch to master
+Compiled and give the feedback to the develoepr.
+
+You integarate your code with other deveoloper code and has to be compile/Build, test and deploy it is called CI.
+
+
+Best practice.
+
+All the code by developer has to be commited on the master branch and the master branch is integrated with the CI server like jenkins , bamboo and each commit build trigger automatic test and followed by deployment.
+
+Jenkins is a CI server it won't work without plugin..!
+email notification ,html publisher, 
+
+----
+
+Jenkins Distributed Architechture secureof jenkins?
+Ensure global secutiy ON
+Periodically run security.
+
+Difference PUll and push configuration?
+
+push 
+---
+Centralised server stores the configuation information of all your nodes like node a, b,c,d.
+If a change nodes needs to receive t
+
+
+Either centralised server push the changes to the required nodes.
+
+Pull
+
+Contiously nodes will check with centalised server if any changes need it will pull the changes from it
+
+is pushing the code in to respective nodes.
+Some configuration tools works based on the push based mechanisim like ANSIMBLE
+Some configuration tools works based on the pull based mechanisim like PUPPET and CHEF.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
